@@ -1,0 +1,31 @@
+.circle-blue {
+    position: relative;
+    width: 1392.48px;
+    height: 860.91px;
+    left: 750px;
+    top: -480.07px;
+
+    background: linear-gradient(195.25deg, #364EB8 22.2%, #202B65 89.99%);
+    border-radius: 700px;
+    transform: rotate(-40deg);
+}
+
+.navbar {
+    background: none;
+}
+
+/*EXTRA SMALL SCREEN SIZE*/
+@media only screen and (max-width: 567px) {
+    .circle-blue {
+        display: none;
+    }
+}
+
+/*MEDIUM SCREEN SIZE  (md in bootstrap)*/
+@media only screen and (max-width: 820px) {
+    .circle-blue {
+        left: 320px;
+        top: -580px;
+    }
+}
+
